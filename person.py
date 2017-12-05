@@ -1,3 +1,4 @@
+# Contains Each Person's Information
 class Person(object):
 	#Constructor
 	def __init__(self,name,age,mail):
@@ -70,6 +71,4 @@ def main():
 			print("Unrecognized input, Please Try Again")
 	print("Program Ending")
 main()
-
-
 
