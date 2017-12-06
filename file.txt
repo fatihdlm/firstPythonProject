@@ -1,0 +1,3 @@
+Bülen KOTLUK,32,bulent.kotluk@deu.edu.tr
+Murat EMÇ,31,murat.emc@deu.edu.tr
+Fatih DİLMAÇ,30,fatih.dilmac@deu.edu.tr

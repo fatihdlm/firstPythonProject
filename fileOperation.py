@@ -62,17 +62,21 @@ def main():
 		print("2-> Look Up Person")
 		print("3-> Show All Person")
 		print("4-> Exit")
-		option=input(">")
-		if option=="1":
+		option=eval(input(">"))
+		if option==1:
 			person.append(insert_person())
-		elif option=="2":
+		elif option==2:
 			show_all_person(person)
-		elif option=="3":
+		elif option==3:
 			look_up_person(person)
-		elif option=="4":
+		elif option==4:
 			runing=False
 		else:
 			print("Unrecognized input, Please Try Again")
 	print("Program Ending")
+	outfile=open("file.txt","a")
+	for per in person:
+		outfile.write(per.getName()+","+per.getAge()+","+per.getMail()+"\n")
+	outfile.close()
 main()
 
