@@ -1,11 +1,11 @@
 # Contains Each Person's Information
 class Person(object):
-	#Constructor yenilendi fatih
+	#Constructor
 	def __init__(self,name,age,mail):
 		self.name=name
 		self.age=age
 		self.mail=mail
-	
+
 	#Accesser Methods (Getters)
 	def getName(self):
 		return self.name
@@ -33,7 +33,7 @@ class Person(object):
 def insert_person():
 	print("Please Input Person Information")
 	name=input("Input Name : ")
-	age=input("Input Age : ")	
+	age=input("Input Age : ")
 	mail=input("Input Email : ")
 	return Person(name,age,mail)
 def show_all_person(person):
@@ -71,4 +71,3 @@ def main():
 			print("Unrecognized input, Please Try Again")
 	print("Program Ending")
 main()
-
