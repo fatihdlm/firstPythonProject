@@ -1,6 +1,6 @@
 # Contains Each Person's Information
 class Person(object):
-	#Constructor yenilendi
+	#Constructor yenilendi fatih
 	#denene
 	def __init__(self,name,age,mail):
 		self.name=name
